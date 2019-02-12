@@ -1,0 +1,163 @@
+
+
+div {
+    display: block;
+}
+body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+body {
+  background-color: #a9d7d1;
+    text-align: center;
+font-family: font-family: 'Raleway', Helvetica, sans-serif;
+    min-width: 320px;
+}
+html {
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.input-field {
+    height: 5%;
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.rightTab {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.dropdown {
+    height: 5%;
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 5%;
+    border: 1% solid #c0c0c0;
+    border-radius: 5px;
+}
+
+.userRatings, input[type="checkbox"] {
+    float: left;
+  box-sizing: border-box;
+}
+
+
+input[type="checkbox" i] {
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+}
+input[type="radio"] {
+    box-sizing: border-box;
+}
+
+#submit {
+    background-color: #59ace0;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
+}
+#form {
+    background-color: rgb(250, 250, 250);
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;
+    padding: 10px;
+    padding-top: 20px;
+}
+ 
+button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    /* add your code below this line */
+    animation-fill-mode:forwards;
+    /* add your code above this line */
+  }
+  @keyframes background-color {
+    100% {
+      background-color: #4791d0;
+    }
+  }
+#title{
+  color:rgb(250, 250, 250);
+}
+
+button:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20%;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}

@@ -1,0 +1,151 @@
+<html>
+
+<head>
+
+    <meta-charset="UTF-8">
+    <title>Modelo de form</title>
+    <link type="text/css" href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+        <header></header>
+        <h1 id="title">Survey form</h1>
+        <section id="form">
+          <p id="description"> Esto es un modelo de form</p>
+      
+          <form id="survey-form">
+      
+            <div class="rowTab">
+              <div class="labels"><label id="name_label">*Nombre</label></div>
+              <div class="rightTab">
+                <input type="text" name="name" id="name" class="input-field" placeholder="Ingresa tu nombre"></input>
+              </div>
+      
+            </div>
+            
+      
+            <div class="rowTab">
+              <div class="labels"><label id="email_label">*Email</label></div>
+              <div class="rightTab">
+                <input type="email" name="email" id="email" class="input-field" required placeholder="Ingresa tu email"></input>
+              </div>
+            </div>
+      
+            <div class="rowTab">
+              <div class="labels"><label id="age_label">*Edad
+              </label></div>
+              <div class="rightTab">
+                <input type="number" name="age" id="number" class="input-field" required placeholder="Edad" <input></div>
+            </div>
+      
+            <div class="rowTab">
+              <div class="labels"><label id="age_label">*Ocupación actual
+            </label> </div>
+              <div class="rightTab">
+                <select id="dropdown" name="currentPos" class="dropdown">
+            <option disabled value>Select an option</option>
+            <option value="student">Estudiante</option>
+              <option value="job">Trabajo Full Time</option>
+              <option value="learner">Estudiante Full Time</option>
+              <option value="preferNo">Prefiero no decir</option>
+              <option value="other">Otros</option>
+            </select>
+              </div>
+            </div>
+      
+            <div class="rowTab">
+              <div class="labels">
+                <label for="userRating"> *Recomendarías ésta página? </label></div>
+              <div class="rightTab">
+                <ul style="list-style: none;">
+                  <li class="radio">
+                    <label> 
+                           <input name="radio buttons" value="1" type="radio" class="userRatings"> Definitivamente
+                          </label></li>
+                  <li class="radio">
+                    <label> 
+                           <input name="radio buttons" value="1" type="radio" class="userRatings"> Puede ser
+                          </label></li>
+                  <li class="radio">
+                    <label> 
+                           <input name="radio buttons" value="1" type="radio" class="userRatings"> No
+                          </label></li>
+                </ul>
+              </div>
+            </div>
+            </div>
+            </div>
+      
+            <div class="rowTab">
+              <div class="labels"><label id="age_label">*Preferencia
+                                                         </label> </div>
+              <div class="rightTab">
+                <select id="dropdown" name="currentPos" class="dropdown">
+            <option disabled value>Select an option</option>
+            <option value="student">
+                                   Medialunas
+                                   </option>
+              <option value="job">Sanguchitos
+                                 </option>
+              <option value="learner">Budín
+                                     </option>
+              <option value="preferNo">Prefiero no decir
+                                      </option>
+              <option value="other">Todas al mismo tiempo
+                                   </option>
+            </select>
+              </div>
+            </div>
+      
+            <div class="rowTab">
+              <div class="labels">
+                <label for="userRating"> *Con qué te gustaría tener experiencia en el futuro? </br>
+               </label></div>
+              <div class="rightTab">
+                <ul id="preferences" style="list-style: none;">
+                  <li class="checkbox">
+                    <label>
+                        <input name="prefer" value=1 type="checkbox" class="userRatings"> Front End Projects </input>
+                          </label></li>
+                  <li class="checkbox">
+                    <label>
+                        <input name="prefer" value=1 type="checkbox" class="userRatings"> Back End Projects</input>
+                          </label></li>
+                  <li class="checkbox">
+                    <label>
+                        <input name="prefer" value=1 type="checkbox" class="userRatings"> Data Visualization </input>
+                          </label></li>
+                  <li class="checkbox">
+                    <label>
+                        <input name="prefer" value=1 type="checkbox" class="userRatings"> Challenges </input>
+                          </label></li>
+                  <li class="checkbox">
+                    <label>
+                        <input name="prefer" value=1 type="checkbox" class="userRatings"> Open source Community
+                        </input>
+                          </label></li>
+      
+                </ul>
+              </div>
+            </div>
+            </div>
+            </div>
+      
+            <div class="rowTab">
+              <div class="labels">
+                <label for="comments">
+                                 *Comentarios o sugerencias</label></div>
+      
+              <div class="rightTab">
+                <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment">
+                                                                                                                                                 </textarea></div>
+      
+            </div>
+      
+            <button id="submit" type="submit">Enviar</button>
+      
+          </form>
+        </section>
+      </body>
+      
+      </html>
